@@ -1,0 +1,16 @@
+print("Welcome to Elijah's calculator!")
+
+first_number = float(input("What is the first number of your equation?"))
+second_number = float(input("What is the second number of your equation?"))
+operation = input("Which basic operation would you like to use?")
+
+if operation == "Addition":
+     print(first_number + second_number)
+elif operation == "Subtraction":
+     print(first_number - second_number)
+elif operation == "Multiplication":
+     print(first_number * second_number)
+elif operation == "Division":
+     print(first_number / second_number)
+else:
+     print("Error")
